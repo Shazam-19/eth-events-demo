@@ -37,7 +37,7 @@ async function main() {
 
   // Print receiver
   console.log(
-    "Senders",
+    "Receivers",
     logs.map(log => log.returnValues.dst),
     `${logs.length} logs`
   );
